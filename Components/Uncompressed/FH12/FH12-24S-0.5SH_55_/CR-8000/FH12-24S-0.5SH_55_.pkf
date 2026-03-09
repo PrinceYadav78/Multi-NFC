@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "FH12-24S-0_5SH_55_"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "FH12-24S-0_5SH_55_")
+        (spec "default")
+    )
+)

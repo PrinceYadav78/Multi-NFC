@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP73831T-2ATI/OT
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=3.1
+Released=2015-11-02 08:50:10
+Downloaded=2026-03-04 10:21:46
+3D=Y

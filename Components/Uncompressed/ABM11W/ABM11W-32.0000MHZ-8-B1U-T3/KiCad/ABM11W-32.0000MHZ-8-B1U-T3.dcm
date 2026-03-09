@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABM11W-32.0000MHZ-8-B1U-T3
+D IoT OPTIMIZED LOW PROFILE QUARTZ CRYSTAL
+K
+F https://abracon.com/Resonators/ABM11W.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ABM11W-32_0000MHZ-8-B1U-T3")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/ABM11W/ABM11W-32.0000MHZ-8-B1U-T3/KiCad/ABM11W-32_0000MHZ-8-B1U-T3.kicad_sym")(options "")(descr ""))
+  (lib (name "ABS06-32_768KHZ-9-T")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/ABS06/ABS06-32.768KHZ-9-T/KiCad/ABS06-32_768KHZ-9-T.kicad_sym")(options "")(descr ""))
+  (lib (name "FH12-24S-0_5SH_55_")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/FH12/FH12-24S-0.5SH_55_/KiCad/FH12-24S-0_5SH_55_.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP73831T-2ATI_OT")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/MCP73831T/MCP73831T-2ATI_OT/KiCad/MCP73831T-2ATI_OT.kicad_sym")(options "")(descr ""))
+  (lib (name "nRF52840-QFAA-F-R7")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/NRF52840/nRF52840-QFAA-F-R7/KiCad/nRF52840-QFAA-F-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "SKRPACE010")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/SKRPACE010/SKRPACE010/KiCad/SKRPACE010.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS78833DBVR")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/TPS78833DBVR/TPS78833DBVR/KiCad/TPS78833DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "W25Q16JVUXIQ_TR")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/W25Q16JVUXIQ/W25Q16JVUXIQ_TR/KiCad/W25Q16JVUXIQ_TR.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4085-GF-A_REVA4")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/USB4085/USB4085-GF-A_REVA4.kicad_sym")(options "")(descr ""))
+)

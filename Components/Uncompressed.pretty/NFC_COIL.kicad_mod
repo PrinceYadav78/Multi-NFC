@@ -1,0 +1,87 @@
+(footprint "NFC_COIL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "L**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29aef204-c83a-c340-741c-53af9296cdd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1.05 uH"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "364a7a73-55f6-52b2-8c0c-174f5fd2afc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de508fcd-18f5-1600-8efe-1198198637e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aba95779-f8f9-dd4c-6262-1e61270fe719")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy 55 0) (xy 55 -55) (xy 0 -55) (xy 0 -1.6) (xy 53.4 -1.6) (xy 53.4 -53.4) (xy 1.6 -53.4)
+			(xy 1.6 -3.2) (xy 51.8 -3.2) (xy 51.8 -51.8) (xy 3.2 -51.8) (xy 3.2 -4.8) (xy 50.2 -4.8) (xy 50.2 -5.6)
+			(xy 49.4 -5.6) (xy 4 -5.6) (xy 4 -51) (xy 51 -51) (xy 51 -4) (xy 2.4 -4) (xy 2.4 -52.6) (xy 52.6 -52.6)
+			(xy 52.6 -2.4) (xy 0.8 -2.4) (xy 0.8 -54.2) (xy 54.2 -54.2) (xy 54.2 -0.8) (xy 0 -0.8)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "6e6686ef-4855-d112-ce17-44b54ef34f22")
+	)
+	(pad "1" smd rect
+		(at -0.4 -0.4)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "838adb30-a603-6d29-3bfc-d006265d77bb")
+	)
+	(pad "2" smd rect
+		(at 49.8 -6)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "910daed4-ca39-9064-4ee6-76e073e252e9")
+	)
+	(embedded_fonts no)
+)

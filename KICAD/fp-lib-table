@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCad")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/ABM11W/ABM11W-32.0000MHZ-8-B1U-T3/KiCad")(options "")(descr ""))
+  (lib (name "KiCad1")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/ABS06/ABS06-32.768KHZ-9-T/KiCad")(options "")(descr ""))
+  (lib (name "KiCad2")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/FH12/FH12-24S-0.5SH_55_/KiCad")(options "")(descr ""))
+  (lib (name "KiCad3")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/MCP73831T/MCP73831T-2ATI_OT/KiCad")(options "")(descr ""))
+  (lib (name "KiCad4")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/NRF52840/nRF52840-QFAA-F-R7/KiCad")(options "")(descr ""))
+  (lib (name "KiCad5")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/SKRPACE010/SKRPACE010/KiCad")(options "")(descr ""))
+  (lib (name "KiCad6")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/TPS78833DBVR/TPS78833DBVR/KiCad")(options "")(descr ""))
+  (lib (name "KiCad7")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/W25Q16JVUXIQ/W25Q16JVUXIQ_TR/KiCad")(options "")(descr ""))
+  (lib (name "USB4085")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed/USB4085")(options "")(descr ""))
+  (lib (name "Uncompressed")(type "KiCad")(uri "E:/NFC CARD/Components/Uncompressed.pretty")(options "")(descr ""))
+)

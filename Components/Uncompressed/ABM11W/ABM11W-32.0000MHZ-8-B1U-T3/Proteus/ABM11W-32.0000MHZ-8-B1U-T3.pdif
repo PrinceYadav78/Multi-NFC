@@ -1,0 +1,108 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ABM11W-32.0000MHZ-8-B1U-T3"
+   (description "IoT OPTIMIZED LOW PROFILE QUARTZ CRYSTAL")
+   (family "OSC")
+   (package "ABM11W300000MHZ4B1UT3")
+   (attribute "Datasheet Link" "https://abracon.com/Resonators/ABM11W.pdf")
+   (attribute "Geometry.Height" "0.5mm")
+   (attribute "Manufacturer_Name" "ABRACON")
+   (attribute "Manufacturer_Part_Number" "ABM11W-32.0000MHZ-8-B1U-T3")
+   (attribute "Mouser Part Number" "815-11W32-8B1UT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM11W-32.0000MHZ-8-B1U-T3?qs=5aG0NVq1C4yDYZ4emOeQRg%3D%3D")
+   (attribute "Arrow Part Number" "ABM11W-32.0000MHZ-8-B1U-T3")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/abm11w-32.0000mhz-8-b1u-t3/abracon?utm_currency=USD&region=nac")
+   (gate
+    (symbol "ABM11W-32.0000MHZ-8-B1U-T3")
+    (pin "X1" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "X2" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "ABM11W-32.0000MHZ-8-B1U-T3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ABM11W300000MHZ4B1UT3"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1 0.8)
+      (pt 1 0.8)
+      (pt 1 -0.8)
+      (pt -1 -0.8)
+      (pt -1 0.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.575 1.375)
+      (pt 1.575 1.375)
+      (pt 1.575 -1.65)
+      (pt -1.575 -1.65)
+      (pt -1.575 1.375))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.7 -1.1)
+      (arc (pt -0.700 -1.100) (pt -0.700 -1.150) (pt -0.600 -1.050) (start -180.0) (sweep 180.0))
+      (pt -0.6 -1.1)
+      (arc (pt -0.600 -1.100) (pt -0.700 -1.150) (pt -0.600 -1.050) (start -180.0) (sweep .0))
+      (pt -0.7 -1.1))))
+   (leg 1 (pt -0.638 -0.487) (padstack 0))
+   (leg 2 (pt 0.637 -0.487) (padstack 0))
+   (leg 3 (pt 0.637 0.487) (padstack 0))
+   (leg 4 (pt -0.638 0.487) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.775 0.875 0 0 0.000))
+   )
+   (model "ABM11W-32.0000MHZ-8-B1U-T3.stp"
+    (euler 90 0 0)
+    (offset 0 0.009999999776482582 0)
+   )
+  )
+ )
+)

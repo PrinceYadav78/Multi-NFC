@@ -1,0 +1,18 @@
+.ABM11W-32.0000MHZ-8-B1U-T3 :1 ;IoT OPTIMIZED LOW PROFILE QUARTZ CRYSTAL
+ABM11W300000MHZ4B1UT3
+*STM Y
+*NGS
+*PLB 1="X1" 2="GND_1" 3="X2" 4="GND_2"
+*MXP 4
+*DFN ABM11W-32.0000MHZ-8-B1U-T3
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ABM11W-32.0000MHZ-8-B1U-T3)
+~!Mouser Part Number (815-11W32-8B1UT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ABM11W-32.0000MHZ-8-B1U-T3?qs=5aG0NVq1C4yDYZ4emOeQRg%3D%3D)
+~!Arrow Part Number (ABM11W-32.0000MHZ-8-B1U-T3)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/abm11w-32.0000mhz-8-b1u-t3/abracon?utm_currency=USD&region=nac)
+~!Link Datasheet (https://abracon.com/Resonators/ABM11W.pdf)
+~!Height (0.5mm)
+~!3D_Model (ABM11W-32.0000MHZ-8-B1U-T3)
+ABM11W-32.0000MHZ-8-B1U-T3
+1.1!U 2.1!U 3.1!U 4.1!U 

@@ -1,0 +1,18 @@
+.ABS06-32.768KHZ-9-T :1 ;32.768 kHz +/-20ppm Crystal 9pF 90 kOhms 2-SMD, No Lead
+ABS06
+*STM Y
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ABS06-32.768KHZ-9-T
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ABS06-32.768KHZ-9-T)
+~!Mouser Part Number (815-ABS06-32.7KHZ9-T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ABS06-32.768KHZ-9-T?qs=bCVHfxk0DdVavvCca3wQTA%3D%3D)
+~!Arrow Part Number (ABS06-32.768KHZ-9-T)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/abs06-32.768khz-9-t/abracon?utm_currency=USD&region=nac)
+~!Link Datasheet (https://abracon.com/Resonators/ABS06.pdf)
+~!Height (0.6mm)
+~!3D_Model (ABS06-32.768KHZ-9-T)
+ABS06-32.768KHZ-9-T
+1.1!U 2.1!U 

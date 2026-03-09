@@ -1,0 +1,114 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ABS06-32.768KHZ-9-T"
+   (description "32.768 kHz +/-20ppm Crystal 9pF 90 kOhms 2-SMD, No Lead")
+   (family "OSC")
+   (package "ABS06")
+   (attribute "Datasheet Link" "https://abracon.com/Resonators/ABS06.pdf")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Manufacturer_Name" "ABRACON")
+   (attribute "Manufacturer_Part_Number" "ABS06-32.768KHZ-9-T")
+   (attribute "Mouser Part Number" "815-ABS06-32.7KHZ9-T")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABS06-32.768KHZ-9-T?qs=bCVHfxk0DdVavvCca3wQTA%3D%3D")
+   (attribute "Arrow Part Number" "ABS06-32.768KHZ-9-T")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/abs06-32.768khz-9-t/abracon?utm_currency=USD&region=nac")
+   (gate
+    (symbol "ABS06-32.768KHZ-9-T")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "ABS06-32.768KHZ-9-T"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 120 100) (pt 120 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 140) (pt 160 -140) (pt 240 -140) (pt 240 140) (pt 160 140) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 120 0) (pt 100 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 400 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ABS06"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 -0.6)
+      (pt 1 -0.6)
+      (pt 1 0.6)
+      (pt -1 0.6)
+      (pt -1 -0.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.1 1.7)
+      (pt 2.1 1.7)
+      (pt 2.1 -1.7)
+      (pt -2.1 -1.7)
+      (pt -2.1 1.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.7 0)
+      (arc (pt -1.700 0.000) (pt -1.700 -0.050) (pt -1.600 0.050) (start 180.0) (sweep -180.0))
+      (pt -1.6 0)
+      (arc (pt -1.600 0.000) (pt -1.700 -0.050) (pt -1.600 0.050) (start 180.0) (sweep .0))
+      (pt -1.7 0)
+      (arc (pt -1.700 0.000) (pt -1.700 -0.050) (pt -1.600 0.050) (start 180.0) (sweep -180.0))
+      (pt -1.6 0))))
+   (leg 1 (pt -0.725 0.000) (padstack 0))
+   (leg 2 (pt 0.725 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.750 1.400 0 0 90.000))
+   )
+   (model "ABS06-32.768KHZ-9-T.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

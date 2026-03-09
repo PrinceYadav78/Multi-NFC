@@ -1,0 +1,225 @@
+(footprint "ABM11W300000MHZ4B1UT3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ABM11W")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0.138 0)
+		(layer "F.SilkS")
+		(uuid "dcd0a558-7229-4352-9b8e-9bb2cee5a5cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ABM11W300000MHZ4B1UT3"
+		(at 0 0.138 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d3e1da4f-1f5f-4f7c-a9ce-1e3e905ea0ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a18a398-3f4c-4b47-a015-e54a642fb722")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8c3db09-6050-4f32-8fd1-0251549e67d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 1.1)
+		(end -0.7 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94c02210-e316-4e1c-b208-e8bd9cb9e18b")
+	)
+	(fp_line
+		(start -0.6 1.1)
+		(end -0.6 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c08e08c-14df-48c4-9244-7a24b0ff8672")
+	)
+	(fp_arc
+		(start -0.7 1.1)
+		(mid -0.65 1.05)
+		(end -0.6 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "250abb3c-bcc4-4ca6-bb0b-9f0499cbc9ef")
+	)
+	(fp_arc
+		(start -0.6 1.1)
+		(mid -0.65 1.15)
+		(end -0.7 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a51ea9ec-9033-4710-a7c6-e939a5fb867f")
+	)
+	(fp_line
+		(start -1.575 -1.375)
+		(end 1.575 -1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62434018-9dad-4eec-b368-b7dce4a107ee")
+	)
+	(fp_line
+		(start -1.575 1.65)
+		(end -1.575 -1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfd59d7c-4593-4f02-8b05-a0350abbba64")
+	)
+	(fp_line
+		(start 1.575 -1.375)
+		(end 1.575 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75d34d40-7be2-4767-8355-6ee32ed27fce")
+	)
+	(fp_line
+		(start 1.575 1.65)
+		(end -1.575 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3a316d2-9812-4c8c-9e99-39fe85b3b2f4")
+	)
+	(fp_line
+		(start -1 -0.8)
+		(end 1 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "035304ed-0d2f-4e3a-817d-81cfe4f1bafb")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e992812f-4208-42be-a4e2-2f0085b9e337")
+	)
+	(fp_line
+		(start 1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28db66ca-8917-490e-bc5b-9d454df3d988")
+	)
+	(fp_line
+		(start 1 0.8)
+		(end -1 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd429572-b3a8-430a-aa3d-6d4d749f1248")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.138 0)
+		(layer "F.Fab")
+		(uuid "0ae5faf8-f6ae-4fa8-9fc0-7d5ab89ad47f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.638 0.487 90)
+		(size 0.775 0.875)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b648498b-576c-4d3e-8eb2-91c6e7ca3a9e")
+	)
+	(pad "2" smd rect
+		(at 0.637 0.487 90)
+		(size 0.775 0.875)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "08456f3c-021d-452c-9c47-b9e54adaae07")
+	)
+	(pad "3" smd rect
+		(at 0.637 -0.487 90)
+		(size 0.775 0.875)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9d5f27e2-fd5f-420f-8fcb-3a7a32e70292")
+	)
+	(pad "4" smd rect
+		(at -0.638 -0.487 90)
+		(size 0.775 0.875)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "079ecddc-5b63-48c5-83eb-f35635ae9460")
+	)
+	(embedded_fonts no)
+	(model "E:/NFC CARD/Components/Uncompressed/ABM11W/ABM11W-32.0000MHZ-8-B1U-T3/3D/ABM11W-32.0000MHZ-8-B1U-T3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

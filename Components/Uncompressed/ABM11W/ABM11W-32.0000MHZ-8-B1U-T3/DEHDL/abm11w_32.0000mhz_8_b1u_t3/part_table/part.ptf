@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ABM11W_32.0000MHZ_8_B1U_T3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ABRACON", "ABM11W-32.0000MHZ-8-B1U-T3" (!) = "", "ABM11W300000MHZ4B1UT3", "Other", "815-11W32-8B1UT", "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM11W-32.0000MHZ-8-B1U-T3?qs=5aG0NVq1C4yDYZ4emOeQRg%3D%3D", "ABM11W-32.0000MHZ-8-B1U-T3", "https://www.arrow.com/en/products/abm11w-32.0000mhz-8-b1u-t3/abracon?utm_currency=USD&region=nac", "IoT OPTIMIZED LOW PROFILE QUARTZ CRYSTAL", "https://abracon.com/Resonators/ABM11W.pdf", "0.5 mm"
+END_PART
+
+END.

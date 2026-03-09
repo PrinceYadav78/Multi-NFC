@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS78833DBVR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=5
+Version=1.1
+Released=2017-01-12 12:59:53
+Downloaded=2026-03-04 10:23:23
+3D=Y

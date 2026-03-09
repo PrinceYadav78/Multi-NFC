@@ -1,0 +1,125 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPS78833DBVR"
+   (description "Low Noise, Low Iq, 150-mA Low Dropout Linear Regulator with Adjustable Soft-Start")
+   (family "ANA")
+   (package "SOT95P280X145-5N")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/tps788")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TPS78833DBVR")
+   (attribute "Mouser Part Number" "595-TPS78833DBVR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS78833DBVR")
+   (attribute "Arrow Part Number" "TPS78833DBVR")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/tps78833dbvr/texas-instruments")
+   (gate
+    (symbol "TPS78833DBVR")
+    (pin "IN" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "~EN" 3 PS)
+    (pin "SR" 4 PS)
+    (pin "OUT" 5 PS)
+   )
+  )
+  (symbol "TPS78833DBVR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT95P280X145-5N"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -0.5334 -1.524)
+      (pt 0.5334 -1.524))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 0.8636 -0.3302)
+      (pt 0.8636 0.3302))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 0.5334 1.524)
+      (pt 0.3048 1.524))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 0.3048 1.524)
+      (pt -0.3048 1.524))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -0.3048 1.524)
+      (pt -0.5334 1.524))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (arc (pt 0.3048 1.524) (pt -0.3048 1.2192) (pt 0.3048 1.8288) (start -180.0) (sweep .0))
+      (pt -0.3048 1.524))))
+   (leg 1 (pt -1.2954 0.9398) (padstack 0))
+   (leg 2 (pt -1.2954 0) (padstack 0))
+   (leg 3 (pt -1.2954 -0.9398) (padstack 0))
+   (leg 4 (pt 1.2954 -0.9398) (padstack 0))
+   (leg 5 (pt 1.2954 0.9398) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.5588 1.27 0 0 0))
+   )
+   (model "TPS78833DBVR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ABS06"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ABS06")
+        (spec "default")
+    )
+)

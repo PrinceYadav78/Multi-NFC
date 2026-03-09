@@ -1,0 +1,18 @@
+.TPS78833DBVR :1 ;Low Noise, Low Iq, 150-mA Low Dropout Linear Regulator with Adjustable Soft-Start
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="IN" 2="GND" 3="~EN" 4="SR" 5="OUT"
+*MXP 5
+*DFN TPS78833DBVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS78833DBVR)
+~!Mouser Part Number (595-TPS78833DBVR)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPS78833DBVR)
+~!Arrow Part Number (TPS78833DBVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps78833dbvr/texas-instruments)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tps788)
+~!Height (-)
+~!3D_Model (TPS78833DBVR)
+TPS78833DBVR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 
